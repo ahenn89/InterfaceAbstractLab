@@ -8,7 +8,7 @@ public abstract class Courses {
     private double credits;
     private String prerequisites;
     
-    private Reports rs = new Reports();
+    private Reports reportS = new Reports();
     
     /*
     Getters and setters are all concrete. Tried to make them abstract,

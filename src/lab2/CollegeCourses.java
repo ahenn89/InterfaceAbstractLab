@@ -9,6 +9,7 @@ package lab2;
  *
  * @author Ashlee
  */
-public class CollegeCourses {
+public interface CollegeCourses {
+    
     
 }

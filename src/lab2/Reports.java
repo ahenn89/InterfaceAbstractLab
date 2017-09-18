@@ -10,5 +10,17 @@ package lab2;
  * @author Ashlee
  */
 public class Reports {
+     private String report = "";
     
+    public void addData(String data) {
+        report += data;
+    }
+    
+    public void outputReport() {
+        System.out.println(report);
+    }
+    
+    public void clearReport() {
+        report = "";
+    }  
 }

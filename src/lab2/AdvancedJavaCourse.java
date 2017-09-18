@@ -13,10 +13,13 @@ public class AdvancedJavaCourse {
     private String courseNumber;
     private double credits;
     private String prerequisites;
+    private Reports reportS = new Reports();
 
     public AdvancedJavaCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
+        this.setCredits(credits);
+        this.setPrerequisites(prerequisites);
     }
 
     public String getCourseNumber() {
