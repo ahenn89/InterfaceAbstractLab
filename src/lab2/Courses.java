@@ -17,5 +17,5 @@ public class Courses {
     private double credits;
     private String prerequisites;
     
-     
+    private lab1.Reports reportS = new lab1.Reports(); 
 }
