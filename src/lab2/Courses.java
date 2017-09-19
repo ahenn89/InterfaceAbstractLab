@@ -19,11 +19,7 @@ public class Courses {
     
     private lab1.Reports reportS = new lab1.Reports();
     
-    /*
-    Getters and setters are all concrete. Tried to make them abstract,
-    but was unable to access the relative fields because they were private in Course. 
-    eg) I thought having abstract setPrereq would be a good idea since we dont know how that's really defined
-    for different schools. 
+    /* 
     */
     public void setPrerequisites(String prerequisites) {
         if (prerequisites == null || prerequisites.length() == 0) {

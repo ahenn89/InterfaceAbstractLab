@@ -12,9 +12,9 @@ public abstract class Courses {
     
     /*
     Getters and setters are all concrete. Tried to make them abstract,
-    but was unable to access the relative fields because they were private in Course. 
-    eg) I thought having abstract setPrereq would be a good idea since we dont know how that's really defined
-    for different schools. 
+    but was unable to access the relative fields because they were private in Courses. 
+    **I thought having abstract setPrereq might be a good idea since we dont know how that's really defined
+    for different schools? 
     */
     public void setPrerequisites(String prerequisites) {
         if (prerequisites == null || prerequisites.length() == 0) {
