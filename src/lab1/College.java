@@ -16,7 +16,7 @@ public class College {
     
     public void addNewCourse(CollegeCourses collegeCourses){
         courseInventory.add(collegeCourses);
-        reportS.addData("New course added for this semester: " + collegeCourses.getCourseName());
+        reportS.addData("New course added for this semester: ");
     }
     
     public void outputNewCourseReport(){
