@@ -13,10 +13,10 @@ import java.util.ArrayList;
  */
 public class College {
     //List keeps track of all courses at the college
-    private ArrayList<Courses> courseInventory = new ArrayList<>();
+    //private ArrayList<Courses> courseInventory = new ArrayList<>();
     
     public void addNewCourse(Courses courses){
-        courseInventory.add(courses);
-        System.out.println("New course added for this semester: " + courses.getCourseName());
+        //courseInventory.add(courses);
+        System.out.println("New course added for this semester: " );
     }
 }
